@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/theme.json",
+	"version": 3,
+	"title": "Section 1",
+	"slug": "section-1",
+	"blockTypes": [ "core/group" ],
+	"styles": {
+		"color": {
+			"background": "var:preset|color|accent-3",
+			"text": "var:preset|color|base-2"
+		},
+		"spacing": {
+			"padding": {
+				"top": "var:preset|spacing|40",
+				"bottom": "var:preset|spacing|40",
+				"left": "var:preset|spacing|40",
+				"right": "var:preset|spacing|40"
+			}
+		},
+		"elements": {
+			"heading": {
+				"color": {
+					"text": "inherit"
+				}
+			}
+		}
+	}
+}
