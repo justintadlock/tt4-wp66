@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"dimensions": {
+			"aspectRatio": true,
+			"aspectRatios": [
+				{
+					"name": "Extra Wide - 2:1",
+					"slug": "2-1",
+					"ratio": "2/1"
+				},
+				{
+					"name": "Cinema - 21:9",
+					"slug": "21-9",
+					"ratio": "21/9"
+				}
+			],
+			"defaultAspectRatios": true
+		}
+	}
+}
