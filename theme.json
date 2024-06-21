@@ -18,5 +18,14 @@
 			],
 			"defaultAspectRatios": true
 		}
+	},
+	"styles": {
+		"blocks": {
+			"core/quote": {
+				"typography": {
+					"textAlign": "center"
+				}
+			}
+		}
 	}
 }
